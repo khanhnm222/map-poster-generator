@@ -1,7 +1,7 @@
 import { useEffect, useRef } from "react";
 import mapboxgl from "mapbox-gl";
 
-mapboxgl.accessToken = import.meta.env.VITE_MAPBOX_TOKEN;
+mapboxgl.accessToken = import.meta.env.VITE_MAPBOX_KEY;
 
 export default function MapView() {
   const mapRef = useRef<HTMLDivElement>(null);
