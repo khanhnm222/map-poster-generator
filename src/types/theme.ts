@@ -1,0 +1,18 @@
+export interface MapTheme {
+    name: string;
+    description: string;
+
+    bg: string;
+    text: string;
+    gradient_color: string;
+
+    water: string;
+    parks: string;
+
+    road_motorway: string;
+    road_primary: string;
+    road_secondary: string;
+    road_tertiary: string;
+    road_residential: string;
+    road_default: string;
+}
