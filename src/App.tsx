@@ -14,7 +14,7 @@ export default function App() {
       <h1 className="text-3xl font-bold text-center mb-6">
         Map Poster Generator
       </h1>
-      <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
+      <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 h-[calc(100dvh-6.5rem)]">
         {/* Controls */}
         <div className="bg-white p-4 rounded-xl shadow">
           <PosterControls
@@ -23,7 +23,7 @@ export default function App() {
           />
         </div>
         {/* Map Preview */}
-        <div className="lg:col-span-2 bg-white p-4 rounded-xl shadow h-[600px]">
+        <div className="lg:col-span-2 bg-white p-4 rounded-xl shadow h-full min-h-[600px]">
           <MapView mapStyle={mapStyle} onMapLoad={setMap} />
         </div>
       </div>

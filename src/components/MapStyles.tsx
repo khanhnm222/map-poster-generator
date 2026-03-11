@@ -17,9 +17,8 @@ const MAP_STYLES = [
 export default function MapStyles({ mapStyle, onMapStyleChange }: MapStylesProps) {
     return (
         <div className="space-y-4">
-
             <div>
-                <label className="block font-medium mb-1">
+                <label className="float-left block font-bold mb-1">
                     Map Style
                 </label>
                 <select

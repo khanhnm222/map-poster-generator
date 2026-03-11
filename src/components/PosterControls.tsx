@@ -13,7 +13,7 @@ export default function PosterControls({ mapStyle, onMapStyleChange }: PosterCon
   return (
     <div className="space-y-4">
       <div>
-        <label className="block font-medium mb-1">
+        <label className="float-left block font-bold mb-1">
           Poster Title
         </label>
 
